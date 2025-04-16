@@ -1,0 +1,78 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Vulkan specific
+*.spv
+vulkan_sdk/
+vk_layer_settings.txt
+
+# Visual Studio specific
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+ipch/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+[Bb]uild*/
+x64/
+x86/
+[Oo]bj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Shader compilation temporary files
+*.spv.h
+*.glsl.h
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Generated documentation
+html/
+latex/
