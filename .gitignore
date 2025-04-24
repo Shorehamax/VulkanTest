@@ -76,3 +76,6 @@ cmake_install.cmake
 # Generated documentation
 html/
 latex/
+
+# Ignore Linux executables
+VulkanTest
